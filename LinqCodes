@@ -1,0 +1,13 @@
+﻿//Any ile bir listenin içinde eleman varmı yok mu diye sorgulama yaparız!(True/False Döndürür.)
+var result = products.Any(p=>p.ProductName=="Acer Laptop");
+Console.WriteLine(result);
+************************************************************************************
+//Find Dönüş olarak bir tane product döndürüyor .
+var result= products.Find(p=>p.ProductId==product.ProductId);
+************************************************************************************
+//FindAll Şarta uyan bütün  elemanları getirir. Direkt olarak liste dönüor fakat Where kullanımında .ToList dememiz gerekiyor.
+var result = products.FindAll(p=>p.ProductName.Contains("top"));
+************************************************************************************
+//Where FindAll gibi çalışır Liste gönderir.
+var result= products.Where(p=>p.ProductName.Contains("top"));
+************************************************************************************

@@ -13,6 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesDemo", "Interface
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3DayHomework", "Week3DayHomework\Week3DayHomework.csproj", "{521E5646-CDBA-4383-9291-620815C7E838}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "I Learning Linq", "I Learning Linq", "{062754D0-FBB5-4FE9-BBD1-49009FD1FAD2}"
+	ProjectSection(SolutionItems) = preProject
+		LinqCodes = LinqCodes
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
